@@ -8,6 +8,10 @@
 	<string>memeMe</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIcons</key>
+	<dict/>
+	<key>CFBundleIcons~ipad</key>
+	<dict/>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -23,11 +27,11 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>Cuz why the fuck not</string>
+	<string>$(PRODUCT_NAME) uses camera</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>Uses it</string>
+	<string>$(PRODUCT_NAME) uses photos</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Cuz why not</string>
+	<string>$(PRODUCT_NAME) uses photos</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

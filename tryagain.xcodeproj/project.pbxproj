@@ -12,8 +12,6 @@
 		4109DD7A205B670E00DB0F88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4109DD78205B670E00DB0F88 /* Main.storyboard */; };
 		4109DD7C205B670E00DB0F88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4109DD7B205B670E00DB0F88 /* Assets.xcassets */; };
 		4109DD7F205B670E00DB0F88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4109DD7D205B670E00DB0F88 /* LaunchScreen.storyboard */; };
-		4109DD8A205B670E00DB0F88 /* tryagainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4109DD89205B670E00DB0F88 /* tryagainTests.swift */; };
-		4109DD95205B670E00DB0F88 /* tryagainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4109DD94205B670E00DB0F88 /* tryagainUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +32,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4109DD71205B670E00DB0F88 /* tryagain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tryagain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4109DD74205B670E00DB0F88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4109DD76205B670E00DB0F88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4109DD79205B670E00DB0F88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4109DD7B205B670E00DB0F88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4109DD7E205B670E00DB0F88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4109DD80205B670E00DB0F88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4109DD85205B670E00DB0F88 /* tryagainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tryagainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4109DD89205B670E00DB0F88 /* tryagainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tryagainTests.swift; sourceTree = "<group>"; };
-		4109DD8B205B670E00DB0F88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4109DD90205B670E00DB0F88 /* tryagainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tryagainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4109DD94205B670E00DB0F88 /* tryagainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tryagainUITests.swift; sourceTree = "<group>"; };
-		4109DD96205B670E00DB0F88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4176292820677B3700FFF82A /* tryagain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tryagain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4176292D2067946500FFF82A /* tryagainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tryagainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4176292E2067946500FFF82A /* tryagainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tryagainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,20 +72,10 @@
 			isa = PBXGroup;
 			children = (
 				4109DD73205B670E00DB0F88 /* tryagain */,
-				4109DD88205B670E00DB0F88 /* tryagainTests */,
-				4109DD93205B670E00DB0F88 /* tryagainUITests */,
-				4109DD72205B670E00DB0F88 /* Products */,
+				4176292820677B3700FFF82A /* tryagain.app */,
+				4176292D2067946500FFF82A /* tryagainTests.xctest */,
+				4176292E2067946500FFF82A /* tryagainUITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		4109DD72205B670E00DB0F88 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4109DD71205B670E00DB0F88 /* tryagain.app */,
-				4109DD85205B670E00DB0F88 /* tryagainTests.xctest */,
-				4109DD90205B670E00DB0F88 /* tryagainUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		4109DD73205B670E00DB0F88 /* tryagain */ = {
@@ -105,24 +89,6 @@
 				4109DD80205B670E00DB0F88 /* Info.plist */,
 			);
 			path = tryagain;
-			sourceTree = "<group>";
-		};
-		4109DD88205B670E00DB0F88 /* tryagainTests */ = {
-			isa = PBXGroup;
-			children = (
-				4109DD89205B670E00DB0F88 /* tryagainTests.swift */,
-				4109DD8B205B670E00DB0F88 /* Info.plist */,
-			);
-			path = tryagainTests;
-			sourceTree = "<group>";
-		};
-		4109DD93205B670E00DB0F88 /* tryagainUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4109DD94205B670E00DB0F88 /* tryagainUITests.swift */,
-				4109DD96205B670E00DB0F88 /* Info.plist */,
-			);
-			path = tryagainUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +108,7 @@
 			);
 			name = tryagain;
 			productName = tryagain;
-			productReference = 4109DD71205B670E00DB0F88 /* tryagain.app */;
+			productReference = 4176292820677B3700FFF82A /* tryagain.app */;
 			productType = "com.apple.product-type.application";
 		};
 		4109DD84205B670E00DB0F88 /* tryagainTests */ = {
@@ -160,7 +126,7 @@
 			);
 			name = tryagainTests;
 			productName = tryagainTests;
-			productReference = 4109DD85205B670E00DB0F88 /* tryagainTests.xctest */;
+			productReference = 4176292D2067946500FFF82A /* tryagainTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		4109DD8F205B670E00DB0F88 /* tryagainUITests */ = {
@@ -178,7 +144,7 @@
 			);
 			name = tryagainUITests;
 			productName = tryagainUITests;
-			productReference = 4109DD90205B670E00DB0F88 /* tryagainUITests.xctest */;
+			productReference = 4176292E2067946500FFF82A /* tryagainUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -216,7 +182,7 @@
 				Base,
 			);
 			mainGroup = 4109DD68205B670E00DB0F88;
-			productRefGroup = 4109DD72205B670E00DB0F88 /* Products */;
+			productRefGroup = 4109DD68205B670E00DB0F88;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -268,7 +234,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4109DD8A205B670E00DB0F88 /* tryagainTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4109DD95205B670E00DB0F88 /* tryagainUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,10 +389,9 @@
 		4109DD9A205B670E00DB0F88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9724JH8657;
-				INFOPLIST_FILE = "$(SRCROOT)/memeMe/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/tryagain/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = paras.tryagain;
@@ -441,10 +404,9 @@
 		4109DD9B205B670E00DB0F88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9724JH8657;
-				INFOPLIST_FILE = "$(SRCROOT)/memeMe/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/tryagain/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = paras.tryagain;

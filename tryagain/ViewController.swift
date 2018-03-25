@@ -73,6 +73,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         shareButton.isEnabled=false
         
         topTextField.delegate = self
